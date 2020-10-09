@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+     Tax calculator
+     creted by TimNikolaiev(telegram Debian99)
+     chromanon@gmail.com
+     group: js-10 ort school
+     -->
+    <meta charset="UTF-8">
+    <title>Tax Calculator</title>
+</head>
+<body>
+<script src="./main1.js"></script>
+<form name="incomeTaxForm" autocomplete="off">
+    <input id="input_field" maxlength = "10" placeholder="Intup salary. Only digit">
+    <a href="#calculate" onclick="count_tax()">Calculate</a>
+    <input type="reset" name="reset" onclick="clear_total()">
+</form>
+<span id="total"></span>
+</body>
+</html>
